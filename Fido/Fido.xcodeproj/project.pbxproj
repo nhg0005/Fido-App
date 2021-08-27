@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6675DC826D60316005ED933 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6675DC726D60316005ED933 /* LocalNotificationManager.swift */; };
+		F69A677926CE2A6100C5DE16 /* FidoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69A677826CE2A6100C5DE16 /* FidoApp.swift */; };
+		F69A677D26CE2A6400C5DE16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69A677C26CE2A6400C5DE16 /* Assets.xcassets */; };
+		F69A678026CE2A6400C5DE16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69A677F26CE2A6400C5DE16 /* Preview Assets.xcassets */; };
+		F69A678B26CE2A6400C5DE16 /* FidoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69A678A26CE2A6400C5DE16 /* FidoTests.swift */; };
+		F69A679626CE2A6400C5DE16 /* FidoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69A679526CE2A6400C5DE16 /* FidoUITests.swift */; };
+		F69A67A526CE2B0800C5DE16 /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69A67A426CE2B0800C5DE16 /* Meals.swift */; };
+		F69A67A726CE2D6E00C5DE16 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69A67A626CE2D6E00C5DE16 /* HomeView.swift */; };
+		F69A67AB26CE326C00C5DE16 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69A67AA26CE326C00C5DE16 /* MealDetailView.swift */; };
+		F69A67AD26CE38F600C5DE16 /* EditMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69A67AC26CE38F600C5DE16 /* EditMealView.swift */; };
+		F69A67AF26D0D02E00C5DE16 /* MealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69A67AE26D0D02E00C5DE16 /* MealData.swift */; };
+		F69A67B126D1D92100C5DE16 /* Medications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69A67B026D1D92100C5DE16 /* Medications.swift */; };
+		F69A67B326D1DB0A00C5DE16 /* MedicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69A67B226D1DB0A00C5DE16 /* MedicationData.swift */; };
+		F69A67B526D1DD6900C5DE16 /* MedicationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69A67B426D1DD6900C5DE16 /* MedicationDetailView.swift */; };
+		F69A67B726D1E00800C5DE16 /* EditMedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69A67B626D1E00800C5DE16 /* EditMedicationView.swift */; };
+		F6FA956026D5A4EF00075972 /* Walks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA955F26D5A4EF00075972 /* Walks.swift */; };
+		F6FA956226D5A64900075972 /* WalksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA956126D5A64900075972 /* WalksData.swift */; };
+		F6FA956426D5A8F300075972 /* WalkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA956326D5A8F300075972 /* WalkDetailView.swift */; };
+		F6FA956626D5D12600075972 /* EditWalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA956526D5D12600075972 /* EditWalkView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F69A678726CE2A6400C5DE16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69A676D26CE2A6100C5DE16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69A677426CE2A6100C5DE16;
+			remoteInfo = Fido;
+		};
+		F69A679226CE2A6400C5DE16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69A676D26CE2A6100C5DE16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69A677426CE2A6100C5DE16;
+			remoteInfo = Fido;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6675DC726D60316005ED933 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		F69A677526CE2A6100C5DE16 /* Fido.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fido.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69A677826CE2A6100C5DE16 /* FidoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidoApp.swift; sourceTree = "<group>"; };
+		F69A677C26CE2A6400C5DE16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F69A677F26CE2A6400C5DE16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F69A678126CE2A6400C5DE16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69A678626CE2A6400C5DE16 /* FidoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FidoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69A678A26CE2A6400C5DE16 /* FidoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidoTests.swift; sourceTree = "<group>"; };
+		F69A678C26CE2A6400C5DE16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69A679126CE2A6400C5DE16 /* FidoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FidoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69A679526CE2A6400C5DE16 /* FidoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidoUITests.swift; sourceTree = "<group>"; };
+		F69A679726CE2A6400C5DE16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69A67A426CE2B0800C5DE16 /* Meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
+		F69A67A626CE2D6E00C5DE16 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F69A67AA26CE326C00C5DE16 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+		F69A67AC26CE38F600C5DE16 /* EditMealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMealView.swift; sourceTree = "<group>"; };
+		F69A67AE26D0D02E00C5DE16 /* MealData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealData.swift; sourceTree = "<group>"; };
+		F69A67B026D1D92100C5DE16 /* Medications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medications.swift; sourceTree = "<group>"; };
+		F69A67B226D1DB0A00C5DE16 /* MedicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationData.swift; sourceTree = "<group>"; };
+		F69A67B426D1DD6900C5DE16 /* MedicationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetailView.swift; sourceTree = "<group>"; };
+		F69A67B626D1E00800C5DE16 /* EditMedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMedicationView.swift; sourceTree = "<group>"; };
+		F6FA955F26D5A4EF00075972 /* Walks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walks.swift; sourceTree = "<group>"; };
+		F6FA956126D5A64900075972 /* WalksData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalksData.swift; sourceTree = "<group>"; };
+		F6FA956326D5A8F300075972 /* WalkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkDetailView.swift; sourceTree = "<group>"; };
+		F6FA956526D5D12600075972 /* EditWalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWalkView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F69A677226CE2A6100C5DE16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69A678326CE2A6400C5DE16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69A678E26CE2A6400C5DE16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F69A676C26CE2A6100C5DE16 = {
+			isa = PBXGroup;
+			children = (
+				F69A677726CE2A6100C5DE16 /* Fido */,
+				F69A678926CE2A6400C5DE16 /* FidoTests */,
+				F69A679426CE2A6400C5DE16 /* FidoUITests */,
+				F69A677626CE2A6100C5DE16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F69A677626CE2A6100C5DE16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F69A677526CE2A6100C5DE16 /* Fido.app */,
+				F69A678626CE2A6400C5DE16 /* FidoTests.xctest */,
+				F69A679126CE2A6400C5DE16 /* FidoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F69A677726CE2A6100C5DE16 /* Fido */ = {
+			isa = PBXGroup;
+			children = (
+				F69A677826CE2A6100C5DE16 /* FidoApp.swift */,
+				F69A67A626CE2D6E00C5DE16 /* HomeView.swift */,
+				F6675DC726D60316005ED933 /* LocalNotificationManager.swift */,
+				F69A67AA26CE326C00C5DE16 /* MealDetailView.swift */,
+				F69A67AC26CE38F600C5DE16 /* EditMealView.swift */,
+				F69A67B426D1DD6900C5DE16 /* MedicationDetailView.swift */,
+				F69A67B626D1E00800C5DE16 /* EditMedicationView.swift */,
+				F6FA956326D5A8F300075972 /* WalkDetailView.swift */,
+				F6FA956526D5D12600075972 /* EditWalkView.swift */,
+				F69A677C26CE2A6400C5DE16 /* Assets.xcassets */,
+				F69A67A326CE2AE500C5DE16 /* Models */,
+				F69A678126CE2A6400C5DE16 /* Info.plist */,
+				F69A677E26CE2A6400C5DE16 /* Preview Content */,
+			);
+			path = Fido;
+			sourceTree = "<group>";
+		};
+		F69A677E26CE2A6400C5DE16 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F69A677F26CE2A6400C5DE16 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F69A678926CE2A6400C5DE16 /* FidoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F69A678A26CE2A6400C5DE16 /* FidoTests.swift */,
+				F69A678C26CE2A6400C5DE16 /* Info.plist */,
+			);
+			path = FidoTests;
+			sourceTree = "<group>";
+		};
+		F69A679426CE2A6400C5DE16 /* FidoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F69A679526CE2A6400C5DE16 /* FidoUITests.swift */,
+				F69A679726CE2A6400C5DE16 /* Info.plist */,
+			);
+			path = FidoUITests;
+			sourceTree = "<group>";
+		};
+		F69A67A326CE2AE500C5DE16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F69A67A426CE2B0800C5DE16 /* Meals.swift */,
+				F69A67AE26D0D02E00C5DE16 /* MealData.swift */,
+				F69A67B026D1D92100C5DE16 /* Medications.swift */,
+				F69A67B226D1DB0A00C5DE16 /* MedicationData.swift */,
+				F6FA955F26D5A4EF00075972 /* Walks.swift */,
+				F6FA956126D5A64900075972 /* WalksData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F69A677426CE2A6100C5DE16 /* Fido */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69A679A26CE2A6400C5DE16 /* Build configuration list for PBXNativeTarget "Fido" */;
+			buildPhases = (
+				F69A677126CE2A6100C5DE16 /* Sources */,
+				F69A677226CE2A6100C5DE16 /* Frameworks */,
+				F69A677326CE2A6100C5DE16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fido;
+			productName = Fido;
+			productReference = F69A677526CE2A6100C5DE16 /* Fido.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F69A678526CE2A6400C5DE16 /* FidoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69A679D26CE2A6400C5DE16 /* Build configuration list for PBXNativeTarget "FidoTests" */;
+			buildPhases = (
+				F69A678226CE2A6400C5DE16 /* Sources */,
+				F69A678326CE2A6400C5DE16 /* Frameworks */,
+				F69A678426CE2A6400C5DE16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69A678826CE2A6400C5DE16 /* PBXTargetDependency */,
+			);
+			name = FidoTests;
+			productName = FidoTests;
+			productReference = F69A678626CE2A6400C5DE16 /* FidoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F69A679026CE2A6400C5DE16 /* FidoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69A67A026CE2A6400C5DE16 /* Build configuration list for PBXNativeTarget "FidoUITests" */;
+			buildPhases = (
+				F69A678D26CE2A6400C5DE16 /* Sources */,
+				F69A678E26CE2A6400C5DE16 /* Frameworks */,
+				F69A678F26CE2A6400C5DE16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69A679326CE2A6400C5DE16 /* PBXTargetDependency */,
+			);
+			name = FidoUITests;
+			productName = FidoUITests;
+			productReference = F69A679126CE2A6400C5DE16 /* FidoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69A676D26CE2A6100C5DE16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F69A677426CE2A6100C5DE16 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					F69A678526CE2A6400C5DE16 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F69A677426CE2A6100C5DE16;
+					};
+					F69A679026CE2A6400C5DE16 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F69A677426CE2A6100C5DE16;
+					};
+				};
+			};
+			buildConfigurationList = F69A677026CE2A6100C5DE16 /* Build configuration list for PBXProject "Fido" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F69A676C26CE2A6100C5DE16;
+			productRefGroup = F69A677626CE2A6100C5DE16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F69A677426CE2A6100C5DE16 /* Fido */,
+				F69A678526CE2A6400C5DE16 /* FidoTests */,
+				F69A679026CE2A6400C5DE16 /* FidoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F69A677326CE2A6100C5DE16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69A678026CE2A6400C5DE16 /* Preview Assets.xcassets in Resources */,
+				F69A677D26CE2A6400C5DE16 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69A678426CE2A6400C5DE16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69A678F26CE2A6400C5DE16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F69A677126CE2A6100C5DE16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69A67B526D1DD6900C5DE16 /* MedicationDetailView.swift in Sources */,
+				F69A67A526CE2B0800C5DE16 /* Meals.swift in Sources */,
+				F69A67AF26D0D02E00C5DE16 /* MealData.swift in Sources */,
+				F6FA956626D5D12600075972 /* EditWalkView.swift in Sources */,
+				F69A67B726D1E00800C5DE16 /* EditMedicationView.swift in Sources */,
+				F6FA956226D5A64900075972 /* WalksData.swift in Sources */,
+				F6675DC826D60316005ED933 /* LocalNotificationManager.swift in Sources */,
+				F6FA956026D5A4EF00075972 /* Walks.swift in Sources */,
+				F69A67AD26CE38F600C5DE16 /* EditMealView.swift in Sources */,
+				F69A67A726CE2D6E00C5DE16 /* HomeView.swift in Sources */,
+				F69A67B126D1D92100C5DE16 /* Medications.swift in Sources */,
+				F6FA956426D5A8F300075972 /* WalkDetailView.swift in Sources */,
+				F69A67AB26CE326C00C5DE16 /* MealDetailView.swift in Sources */,
+				F69A67B326D1DB0A00C5DE16 /* MedicationData.swift in Sources */,
+				F69A677926CE2A6100C5DE16 /* FidoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69A678226CE2A6400C5DE16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69A678B26CE2A6400C5DE16 /* FidoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69A678D26CE2A6400C5DE16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69A679626CE2A6400C5DE16 /* FidoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F69A678826CE2A6400C5DE16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69A677426CE2A6100C5DE16 /* Fido */;
+			targetProxy = F69A678726CE2A6400C5DE16 /* PBXContainerItemProxy */;
+		};
+		F69A679326CE2A6400C5DE16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69A677426CE2A6100C5DE16 /* Fido */;
+			targetProxy = F69A679226CE2A6400C5DE16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F69A679826CE2A6400C5DE16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F69A679926CE2A6400C5DE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F69A679B26CE2A6400C5DE16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fido/Preview Content\"";
+				DEVELOPMENT_TEAM = GVY249K639;
+				"DEVELOPMENT_TEAM[sdk=*]" = GVY249K639;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Fido/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FidoMiloApp.FidoMiloApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F69A679C26CE2A6400C5DE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fido/Preview Content\"";
+				DEVELOPMENT_TEAM = GVY249K639;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Fido/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FidoMilo.FidoMiloApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F69A679E26CE2A6400C5DE16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MDKZ4YKCQR;
+				INFOPLIST_FILE = FidoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FidoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fido.app/Fido";
+			};
+			name = Debug;
+		};
+		F69A679F26CE2A6400C5DE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MDKZ4YKCQR;
+				INFOPLIST_FILE = FidoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FidoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fido.app/Fido";
+			};
+			name = Release;
+		};
+		F69A67A126CE2A6400C5DE16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MDKZ4YKCQR;
+				INFOPLIST_FILE = FidoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FidoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fido;
+			};
+			name = Debug;
+		};
+		F69A67A226CE2A6400C5DE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MDKZ4YKCQR;
+				INFOPLIST_FILE = FidoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FidoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fido;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F69A677026CE2A6100C5DE16 /* Build configuration list for PBXProject "Fido" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69A679826CE2A6400C5DE16 /* Debug */,
+				F69A679926CE2A6400C5DE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69A679A26CE2A6400C5DE16 /* Build configuration list for PBXNativeTarget "Fido" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69A679B26CE2A6400C5DE16 /* Debug */,
+				F69A679C26CE2A6400C5DE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69A679D26CE2A6400C5DE16 /* Build configuration list for PBXNativeTarget "FidoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69A679E26CE2A6400C5DE16 /* Debug */,
+				F69A679F26CE2A6400C5DE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69A67A026CE2A6400C5DE16 /* Build configuration list for PBXNativeTarget "FidoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69A67A126CE2A6400C5DE16 /* Debug */,
+				F69A67A226CE2A6400C5DE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F69A676D26CE2A6100C5DE16 /* Project object */;
+}
